@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: #d7e9f7;
+}
+
+h2 {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #ffc93c;
+    font-family: 'Permanent Marker', cursive;
+    vertical-align: middle;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Cafe24Ssurround';
+    margin-bottom: 0px;
+}
+
+h6 {
+    font-size: 13px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Cafe24Ssurround';
+    margin-bottom: 0px;
+    color: red;
+}
+
+.btn-home {
+    display: block;
+    float: right;
+    width: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+nav {
+    background: white;
+    padding-bottom: 10px;
+}
+
+#webcam-container {
+    z-index: 8;
+    height: 70px;
+    margin-top: 0px;
+    text-align: center;
+    padding: 0px;
+}
+
+#webcam {
+    display: inline-block;
+    height: 390px;
+    width: 390px;
+    border-radius: 5px;
+    border: 5px solid #31326f;
+    text-align: center;
+    visibility: hidden;
+    background-color: #31326f;
+    display: block;
+    margin: auto;
+}
+
+#name {
+    visibility: hidden;
+}
+
+.btn-up {
+    text-align: center;
+}
+
+.start-btn {
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+    background: #ffc93c;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    border-bottom: 4px solid #fda83c;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+  
+.start-btn:hover {
+    vertical-align: middle;
+    background: #fda83c;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+  
+.start-btn:active {
+    vertical-align: middle;
+    border: 0;
+    transition: all .2s ease;
+}
+
+#btn {
+    font-family: 'Cafe24Ssurround';
+    font-size: 25px;
+}
+
+/* last */
+.last {
+    display: block;
+    height: 100px;
+    background-color: #31326f;
+}
+
+.last p {
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Cafe24SsurroundAir';
+}

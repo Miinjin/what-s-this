@@ -1,0 +1,242 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&family=Nanum+Myeongjo&display=swap');
+
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 200px;
+    font-size: 80px;
+    color: #ffc93c;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+h3 {
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20%;
+    padding: 12px 0px 12px 16px;
+    background-color: #31326f;
+    width: 78px;
+    border-radius: 24px;
+    font-family: 'Balsamiq Sans', cursive;
+    float: right;
+}
+
+.top {
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.top a {
+    font-family: 'Cafe24Ssurround';
+}
+
+.f-yellow {
+    font-size: 25px;
+}
+
+.title {
+    margin-top: 60px;
+    margin-left: 40px;
+    padding-top: 50px;
+    font-size:50px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-family: 'Nanum Myeongjo', serif;
+    color: #f9f9f9;
+}
+
+/* first */
+.first {
+    height: 400px;
+    background-color: #9ddac6;
+    background-size: cover;
+}
+
+.first .intro {
+    font-size: 16px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'RIDIBatang';
+}
+
+/* second */
+@media screen and (min-width: 130px) { 
+    .second {
+        height: 900px;
+        background-color: #f9f9f9;
+    }
+
+    .col img {
+        width: 100px;
+        margin-top: 50px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .second {
+        height: 700px;
+        background-color: #f9f9f9;
+    }
+    
+    .row {
+        text-align: center;
+    }
+    
+    .col {
+        display: inline-block;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .col img {
+        width: 150px;
+        margin-top: 50px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .col h4 {
+        display: inline-block;
+        vertical-align: middle;
+        font-family: 'Cafe24SsurroundAir';
+        font-size: 20px;
+    
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .second {
+        height: 600px;
+        background-color: #f9f9f9;
+    }
+    
+    .row {
+        text-align: center;
+    }
+    
+    .col {
+        display: inline-block;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .col img {
+        width: 180px;
+        margin-top: 50px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .col h4 {
+        display: inline-block;
+        vertical-align: middle;
+        font-family: 'Cafe24SsurroundAir';
+        font-size: 20px;
+    
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .second {
+        height: 500px;
+        background-color: #f9f9f9;
+    }
+    
+    .row {
+        text-align: center;
+    }
+    
+    .col {
+        display: inline-block;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .col img {
+        width: 200px;
+        margin-top: 50px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .col h4 {
+        display: inline-block;
+        vertical-align: middle;
+        font-family: 'Cafe24SsurroundAir';
+        font-size: 20px;
+    
+    }
+}
+
+/* third */
+.third {
+    height: 600px;
+    background-color: #dbf6e9;
+    
+}
+
+.third h4 {
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    font-size: 22px;
+    color: #31326f;
+    font-family: 'RIDIBatang';
+}
+
+/* last */
+.last {
+    height: 100px;
+    background-color: #31326f;
+}
+
+.last p {
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Cafe24SsurroundAir';
+}
